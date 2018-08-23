@@ -1,0 +1,37 @@
+body{
+  background-image: url(blur-blurred-bokeh.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+p{
+  position: relative;
+  font-size: 38px;
+  /*color: #6594e0;*/
+  font-family: fantasy;
+  left: 150px;
+  top: 165px;
+  -webkit-box-reflect: below -10px -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0) 10%,rgba(0, 0, 0, 0.6));
+}
+
+input{
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+
+input.sound_icon:hover{
+  opacity: 0.5;
+}
+
+input.sound_icon:active{
+  position: relative;
+  top: 23px;
+}
+
+input.sound_icon:focus{
+  outline: 0;
+}
